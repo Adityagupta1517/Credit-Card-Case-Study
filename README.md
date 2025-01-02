@@ -20,10 +20,13 @@ Customer Acquisition: Customer details at card issuance.
 Spend Data: Credit card transactions by customers.
 Repayment Data: Credit card payments by customers.
 Tasks
+
 Data Cleaning:
 
 a. Replace age < 18 with the mean age.
+
 b. Cap spending > limit at 50% of the customer’s limit.
+
 c. Cap repayment > limit at the customer’s limit.
 
 Analysis Summaries:
